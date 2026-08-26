@@ -1,0 +1,41 @@
+Sample Queries and Output
+
+?- room(X).
+X = a ;
+X = b ;
+X = c.
+
+?- adjacent(X, Y).
+X = a,
+Y = b ;
+X = b,
+Y = a ;
+X = b,
+Y = c ;
+X = c,
+Y = b.
+
+?- dirty(X).
+X = a ;
+X = c.
+
+?- vacuum_location(X).
+X = a.
+
+?- action(X).
+X = clean.
+
+?- perform(clean).
+Vacuum cleaned room a.
+true.
+
+?- perform(move(c)).
+Vacuum moved to room c.
+true.
+
+?- start.
+Vacuum cleaned room a.
+Vacuum moved to room c.
+Vacuum cleaned room c.
+All rooms are clean. Stopping...
+true.
