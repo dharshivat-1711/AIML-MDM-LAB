@@ -1,0 +1,36 @@
+Sample Input / Output
+
+Query:
+respond(["india","currency"]).
+
+Output:
+Bot: The currency of India is the Rupee.
+true.
+
+Query:
+respond(["france","continent"]).
+
+Output:
+Bot: France is in Europe.
+true.
+
+Query:
+respond(["usa","capital"]).
+
+Output:
+Bot: The capital of USA is Washington DC.
+true.
+
+Query:
+respond(["australia","currency"]).
+
+Output:
+Bot: The currency of Australia is the Australian Dollar.
+true.
+
+Query:
+respond(["japan","capital"]).
+
+Output:
+Bot: The capital of Japan is Tokyo.
+true.
